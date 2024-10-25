@@ -1,6 +1,6 @@
 import web
 
-urls = ('pythonanywhere.com/HenryChinask1', 'hello')
+urls = ('henrychinaski.pythonanywhere.com/', 'hello')
 
 app = web.application(urls, globals())
 
