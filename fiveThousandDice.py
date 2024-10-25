@@ -49,7 +49,7 @@ def rollLoop(playerTurn: int) -> int:
                 currScore = 0
                 keepDice = []
             diceRoll = rollDice(5 - len(keepDice), diceRoll[0:len(keepDice)])
-            if currScore == checkScore(diceRoll):
+            if checkScore(diceRoll[len(keepDice):]) == 0:
                 showDice(diceRoll, score, currScore)
                 print('You blew it.')
                 showScores()
