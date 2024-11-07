@@ -12,7 +12,7 @@ Points are obtained through counters.
 Counters are:
 1's,
 5's,
-Any 3 of a kind
+Any 3 of a kind.
           
 SCORING:
 1 = 100pts each or 1,000pts for three,
