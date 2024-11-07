@@ -5,12 +5,13 @@ OBJECTIVE:
 Be the first player to score 5,000 points!
 Roll 5 dice and earn points by collecting three of a kind, 1's and 5's.
 Once a player reaches 5,000 points, each player gets one last turn to try and earn the top score.
+Play with up to 10 players.
           
 COUNTERS:
 Points are obtained through counters.
 Counters are:
-1's
-5's
+1's,
+5's,
 Any 3 of a kind
           
 SCORING:
