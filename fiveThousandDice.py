@@ -70,7 +70,7 @@ def rollLoop(playerTurn: int) -> int:
                 except ValueError:
                     print('Please enter a valid combo. e.g. 12, 123, 35')
                 diceRoll = saveDice(keepDice, diceRoll)
-                #TODO Need to make sure you keep the same dice as last time unless rolling all.
+                #TODO You have to keep the same dice and at least one additional roller to keep rolling.
                 showDice(diceRoll, score, currScore)
         elif turn.upper() == 'D':
             showDice(diceRoll, score, currScore)
