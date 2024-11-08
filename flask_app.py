@@ -10,3 +10,7 @@ def home():
 @app.route('/rules')
 def rules():
     return render_template('rules_page.html')
+
+@app.route('/nana', methods=['GET', 'POST'])
+def nana():
+    return render_template('nana_page.html')
