@@ -1,5 +1,5 @@
 # fiveThousandDice
-# A command line dice game
+# A dice game.
 
 OBJECTIVE:
 Be the first player to score 5,000 points!

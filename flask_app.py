@@ -13,4 +13,12 @@ def rules():
 
 @app.route('/nana', methods=['GET', 'POST'])
 def nana():
-    return render_template('nana_page.html')
+    if request.method == 'GET':
+        return render_template('nana_page.html')
+    return redirect(url_for('nana'))
+
+@app.route('/game', methods=["GET", "POST"])
+def game():
+    if request.method == "GET":
+        return render_template('game_page.html')
+    return redirect(url_for('game'))
